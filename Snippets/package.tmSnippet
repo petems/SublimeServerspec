@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>
+describe package('${1:package}') do
+	it { should be_installed }
+end$0
+</string>
+	<key>name</key>
+	<string>package</string>
+	<key>scope</key>
+	<string>source.ruby.rspec</string>
+	<key>tabTrigger</key>
+	<string>package</string>
+	<key>uuid</key>
+	<string>C60FEB12-B483-49E0-9724-3AEDB7BC4E26</string>
+</dict>
+</plist>
